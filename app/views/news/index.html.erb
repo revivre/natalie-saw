@@ -1,0 +1,9 @@
+<h1>Natalie News Checker</h1>
+<% @artist_info.each do |artist_name, news_info| %>
+<%= artist_name %>
+	<ul>
+	<% news_info.each do |title, link| %>
+		<li><a href="http://natalie.mu<%= strip_tags(link.to_s) %>"><%= title %></a></li>
+	<% end %>
+	</ul>
+<% end %>
