@@ -8,7 +8,7 @@ gem 'faker'
 #gem 'will_paginate', '3.0.4'
 #gem 'bootstrap-will_paginate', '0.0.6'
 gem 'kaminari'
-gem 'nokogiri'
+gem 'nokogiri', '~> 1.8.1'
 
 # Use sqlite3 as the database for Active Record
 group :development, :test do

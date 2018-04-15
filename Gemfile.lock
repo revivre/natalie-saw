@@ -308,7 +308,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   libnotify
-  nokogiri
+  nokogiri (~> 1.8.1)
   pg
   rails (~> 4.2.7.1)
   rails_12factor
